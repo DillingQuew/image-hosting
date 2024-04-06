@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-@yield('content')
+<div class="container">
+    <div class="col">
+        <div class="row mt-5">
+            <h1 class="title">Upload files</h1>
+            @yield('content')
+        </div>
+    </div>
+</div>
 </body>
 </html>

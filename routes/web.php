@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/images', [ImagesController::class, 'index']);
+Route::post('/images', [ImagesController::class, 'upload']);
